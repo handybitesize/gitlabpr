@@ -1,4 +1,4 @@
-
+//shamelessly stolen from https://github.com/panicsteve/cloud-to-butt/
 if (document.domain.indexOf('gitlab.com') !== -1) {
 	walk(document.body);
 

@@ -1,5 +1,5 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "GitLab PRs",
   "version": "1.0",
   "description": "Merge requests??!!",
@@ -11,7 +11,7 @@
     "content_scripts":
   [
     {
-      "matches": ["*://gitlab.com"],
+      "matches": ["*://gitlab.com/*"],
       "js": ["script.js"],
       "run_at": "document_end"
     }
